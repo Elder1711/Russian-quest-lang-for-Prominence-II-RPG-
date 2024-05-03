@@ -4,4 +4,6 @@
 
 Вставте все файлы(папки) с заменой в папку с сборкой Пример: (C:\Users\user\curseforge\minecraft\Instances\Prominence II [RPG]\)
 
+
+Ссылка на сборку ниже
 https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg
