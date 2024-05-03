@@ -1,0 +1,188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifact_reforging"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "alloy_forgery:block/polished_blackstone_forge_controller_front_on"
+		}
+	}
+	id: "13D4D78DE7B38A80"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "minecraft:block/campfire_fire"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{chapter.2.quest.1.description.1}"]
+			icon: "prominent:molten_core"
+			id: "6AD67E7C8CD78371"
+			rewards: [
+				{
+					id: "5562501929CD8443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "369B6883C30000A8"
+					item: "prominent:encased_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{chapter.2.quest.1.subtitle}"
+			tasks: [
+				{
+					id: "035441107821B3C1"
+					item: "prominent:molten_core"
+					type: "item"
+				}
+				{
+					id: "56A625D024CDB2DE"
+					item: "things:hardening_catalyst"
+					title: "{chapter.2.quest.1.task.2.title}"
+					type: "item"
+				}
+			]
+			title: "{chapter.2.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["{chapter.2.quest.2.description.1}"]
+			id: "341DB238063321BF"
+			shape: "hexagon"
+			subtitle: "{chapter.2.quest.2.subtitle}"
+			tasks: [{
+				id: "7F239D03EBB09534"
+				item: {
+					Count: 1b
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["{chapter.2.quest.3.description.1}"]
+			id: "6D1B83D633AB7558"
+			shape: "hexagon"
+			subtitle: "{chapter.2.quest.3.subtitle}"
+			tasks: [{
+				id: "52D24DAEDFD19F9A"
+				item: {
+					Count: 1b
+					id: "prominent:fyralath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["{chapter.2.quest.4.description.1}"]
+			id: "5D03084D09D2A997"
+			shape: "hexagon"
+			subtitle: "{chapter.2.quest.4.subtitle}"
+			tasks: [{
+				id: "43F5AAA9405EE27D"
+				item: {
+					Count: 1b
+					id: "prominent:azhar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["{chapter.2.quest.5.description.1}"]
+			id: "1CE7763C1889255C"
+			shape: "hexagon"
+			subtitle: "{chapter.2.quest.5.subtitle}"
+			tasks: [{
+				id: "6B6E9C04C7D69E89"
+				item: {
+					Count: 1b
+					id: "prominent:supernova"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["{chapter.2.quest.6.description.1}"]
+			id: "211326D6B6C33A25"
+			shape: "hexagon"
+			subtitle: "{chapter.2.quest.6.subtitle}"
+			tasks: [{
+				id: "3D838C3D611886A5"
+				item: {
+					Count: 1b
+					id: "prominent:fury_of_a_thousand_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["{chapter.2.quest.7.description.1}"]
+			id: "50EB37F863EA810B"
+			shape: "hexagon"
+			subtitle: "{chapter.2.quest.7.subtitle}"
+			tasks: [{
+				id: "22CACA94593603A7"
+				item: {
+					Count: 1b
+					id: "prominent:thunderwrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "{chapter.2.title}"
+}

@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reforging"
+	group: "555B69C1AF8C1C7F"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tiered:textures/gui/reforge_tab_icon.png"
+		}
+	}
+	id: "7501A35FAE3E34FE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "tiered:textures/gui/reforge_tab_icon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/common.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.638218923957993E-4d
+			y: 3.2397959183673493d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/uncommon.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.638218923957993E-4d
+			y: 3.790816326530596d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/uncommon.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.5301484230055564d
+			y: 3.2193877551020336d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/legendary.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.509740259740255d
+			y: 4.096938775510203d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 2.509740259740255d
+			y: 3.79081632653061d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/rare.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 4.99953617810759d
+			y: 3.2193877551020407d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 4.99953617810759d
+			y: 3.5051020408163254d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/legendary.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 5.019944341372899d
+			y: 3.79081632653061d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/mythic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: 5.019944341372899d
+			y: 4.0969387755102105d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.35d
+			hover: [ ]
+			image: "tiered:textures/plates/epic.png"
+			rotation: 0.0d
+			width: 1.3363636363636364d
+			x: -4.6382189241001015E-4d
+			y: 4.079846938775518d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{chapter.19.quest.1.description.1}"]
+			id: "3C95FD1F14D109CF"
+			shape: "hexagon"
+			subtitle: "{chapter.19.quest.1.subtitle}"
+			tasks: [{
+				id: "71FAC91280FBBF9C"
+				item: "minecraft:anvil"
+				title: "{chapter.19.quest.1.task.1.title}"
+				type: "item"
+			}]
+			title: "{chapter.19.quest.1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C95FD1F14D109CF"]
+			description: ["{chapter.19.quest.2.description.1}"]
+			id: "4D3F0D8217067D24"
+			shape: "diamond"
+			subtitle: "{chapter.19.quest.2.subtitle}"
+			tasks: [{
+				id: "4593A7256861742B"
+				item: "tiered:limestone_chunk"
+				type: "item"
+			}]
+			title: "{chapter.19.quest.2.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D3F0D8217067D24"]
+			description: ["{chapter.19.quest.3.description.1}"]
+			id: "31388834855FB88E"
+			shape: "diamond"
+			subtitle: "{chapter.19.quest.3.subtitle}"
+			tasks: [{
+				id: "23DAEBDBFD05AB7B"
+				item: "tiered:pyrite_chunk"
+				type: "item"
+			}]
+			title: "{chapter.19.quest.3.title}"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31388834855FB88E"]
+			description: ["{chapter.19.quest.4.description.1}"]
+			id: "2DE7359A85169236"
+			shape: "diamond"
+			subtitle: "{chapter.19.quest.4.subtitle}"
+			tasks: [{
+				id: "7C188E7D00623268"
+				item: "tiered:galena_chunk"
+				type: "item"
+			}]
+			title: "{chapter.19.quest.4.title}"
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+	title: "{chapter.19.title}"
+}
